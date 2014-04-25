@@ -7,10 +7,10 @@ describe "home page functionality" do
   end
 end  
 
-describe "visiting the root" do
-  it "clicking hey Macarena'", js: true do 
-    visit '/'
-    page.find("h1", :text => "Hey Macarena").click
-    expect(page).to have_content 'Hey Gerald';
-  end
-end
+# describe "visiting the root" do
+#   it "clicking hey Macarena'", js: true do 
+#     visit '/'
+#     page.find("h1", :text => "Hey Macarena").click
+#     expect(page).to have_content 'Hey Gerald';
+#   end
+# end
